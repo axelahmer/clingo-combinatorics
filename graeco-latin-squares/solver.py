@@ -3,7 +3,7 @@ import argparse
 
 def get_symbols(n):
     greek = 'αβγδεζηθικλμνξοπρστυφχψω'
-    latin = 'abcdefghijklmnopqrstuvwx'  # Lowercase Latin letters
+    latin = 'abcdefghijklmnopqrstuvwx'
     if n == 4:
         return 'AKQJ', '♥♦♣♠'
     elif n <= len(greek):
